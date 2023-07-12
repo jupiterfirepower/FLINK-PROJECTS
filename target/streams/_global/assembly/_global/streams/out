@@ -1,0 +1,30 @@
+[0m[[0m[0mdebug[0m] [0m[0mCalculate mappings...[0m
+[0m[[0m[0minfo[0m] [0m[0mChecking every *.class/*.jar file's SHA-1.[0m
+[0m[[0m[0minfo[0m] [0m[0mMerging files...[0m
+[0m[[0m[0minfo[0m] [0m[0mSHA-1: 02875c93689786fee568b35b114324fb51bbe96f[0m
+[0m[[0m[33mwarn[0m] [0m[0mIgnored unknown package option FixedTimestamp(Some(1262304000000))[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/jupiter/WORK/PROJECTS/flinkwordcount/target/scala-2.12/flinkwordcount-assembly-1-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	log4j.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jupiter/WORK/PROJECTS/flinkwordcount/target/streams/_global/assemblyOption/_global/streams/assembly/81f88ff56bea8895005c657d946165b8b3572994_dir/log4j.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/Job$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jupiter/WORK/PROJECTS/flinkwordcount/target/streams/_global/assemblyOption/_global/streams/assembly/81f88ff56bea8895005c657d946165b8b3572994_dir/org/Job$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/Job.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jupiter/WORK/PROJECTS/flinkwordcount/target/streams/_global/assemblyOption/_global/streams/assembly/81f88ff56bea8895005c657d946165b8b3572994_dir/org/Job.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/SocketTextStreamWordCount$$anon$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jupiter/WORK/PROJECTS/flinkwordcount/target/streams/_global/assemblyOption/_global/streams/assembly/81f88ff56bea8895005c657d946165b8b3572994_dir/org/SocketTextStreamWordCount$$anon$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/SocketTextStreamWordCount$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jupiter/WORK/PROJECTS/flinkwordcount/target/streams/_global/assemblyOption/_global/streams/assembly/81f88ff56bea8895005c657d946165b8b3572994_dir/org/SocketTextStreamWordCount$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/SocketTextStreamWordCount$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jupiter/WORK/PROJECTS/flinkwordcount/target/streams/_global/assemblyOption/_global/streams/assembly/81f88ff56bea8895005c657d946165b8b3572994_dir/org/SocketTextStreamWordCount$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/SocketTextStreamWordCount.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jupiter/WORK/PROJECTS/flinkwordcount/target/streams/_global/assemblyOption/_global/streams/assembly/81f88ff56bea8895005c657d946165b8b3572994_dir/org/SocketTextStreamWordCount.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/WordCount$$anon$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jupiter/WORK/PROJECTS/flinkwordcount/target/streams/_global/assemblyOption/_global/streams/assembly/81f88ff56bea8895005c657d946165b8b3572994_dir/org/WordCount$$anon$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/WordCount$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jupiter/WORK/PROJECTS/flinkwordcount/target/streams/_global/assemblyOption/_global/streams/assembly/81f88ff56bea8895005c657d946165b8b3572994_dir/org/WordCount$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/WordCount$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jupiter/WORK/PROJECTS/flinkwordcount/target/streams/_global/assemblyOption/_global/streams/assembly/81f88ff56bea8895005c657d946165b8b3572994_dir/org/WordCount$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/WordCount.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/jupiter/WORK/PROJECTS/flinkwordcount/target/streams/_global/assemblyOption/_global/streams/assembly/81f88ff56bea8895005c657d946165b8b3572994_dir/org/WordCount.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

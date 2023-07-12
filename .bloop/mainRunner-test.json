@@ -1,0 +1,849 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "mainRunner-test",
+        "directory": "/home/jupiter/WORK/PROJECTS/flinkwordcount/mainRunner",
+        "workspaceDir": "/home/jupiter/WORK/PROJECTS/flinkwordcount",
+        "sources": [
+            "/home/jupiter/WORK/PROJECTS/flinkwordcount/mainRunner/src/test/scala",
+            "/home/jupiter/WORK/PROJECTS/flinkwordcount/mainRunner/src/test/scala-2.12",
+            "/home/jupiter/WORK/PROJECTS/flinkwordcount/mainRunner/src/test/scala-2",
+            "/home/jupiter/WORK/PROJECTS/flinkwordcount/mainRunner/src/test/java",
+            "/home/jupiter/WORK/PROJECTS/flinkwordcount/mainRunner/target/scala-2.12/src_managed/test"
+        ],
+        "dependencies": [
+            "root",
+            "mainRunner"
+        ],
+        "classpath": [
+            "/home/jupiter/WORK/PROJECTS/flinkwordcount/.bloop/mainRunner/scala-2.12/classes",
+            "/home/jupiter/WORK/PROJECTS/flinkwordcount/.bloop/root/scala-2.12/classes",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.17/scala-library-2.12.17.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-scala_2.12/1.17.1/flink-scala_2.12-1.17.1.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-streaming-scala_2.12/1.17.1/flink-streaming-scala_2.12-1.17.1.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-core/1.17.1/flink-core-1.17.1.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-java/1.17.1/flink-java-1.17.1.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-shaded-asm-9/9.3-16.1/flink-shaded-asm-9-9.3-16.1.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.17/scala-reflect-2.12.17.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.17/scala-compiler-2.12.17.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/chill_2.12/0.7.6/chill_2.12-0.7.6.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-streaming-java/1.17.1/flink-streaming-java-1.17.1.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-annotations/1.17.1/flink-annotations-1.17.1.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-metrics-core/1.17.1/flink-metrics-core-1.17.1.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-shaded-jackson/2.13.4-16.1/flink-shaded-jackson-2.13.4-16.1.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-shaded-guava/30.1.1-jre-16.1/flink-shaded-guava-30.1.1-jre-16.1.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/chill-java/0.7.6/chill-java-0.7.6.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.1.0/scala-xml_2.12-2.1.0.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-file-sink-common/1.17.1/flink-file-sink-common-1.17.1.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-runtime/1.17.1/flink-runtime-1.17.1.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-rpc-core/1.17.1/flink-rpc-core-1.17.1.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-rpc-akka-loader/1.17.1/flink-rpc-akka-loader-1.17.1.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-queryable-state-client-java/1.17.1/flink-queryable-state-client-java-1.17.1.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-hadoop-fs/1.17.1/flink-hadoop-fs-1.17.1.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-shaded-netty/4.1.82.Final-16.1/flink-shaded-netty-4.1.82.Final-16.1.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-shaded-zookeeper-3/3.7.1-16.1/flink-shaded-zookeeper-3-3.7.1-16.1.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-cli/commons-cli/1.5.0/commons-cli-1.5.0.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.8.3/snappy-java-1.1.8.3.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar",
+            "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-shaded-force-shading/16.1/flink-shaded-force-shading-16.1.jar"
+        ],
+        "out": "/home/jupiter/WORK/PROJECTS/flinkwordcount/.bloop/mainRunner",
+        "classesDir": "/home/jupiter/WORK/PROJECTS/flinkwordcount/.bloop/mainRunner/scala-2.12/test-classes",
+        "resources": [
+            "/home/jupiter/WORK/PROJECTS/flinkwordcount/mainRunner/src/test/resources",
+            "/home/jupiter/WORK/PROJECTS/flinkwordcount/mainRunner/target/scala-2.12/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.17",
+            "options": [
+                
+            ],
+            "jars": [
+                "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.17/scala-library-2.12.17.jar",
+                "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.17/scala-compiler-2.12.17.jar",
+                "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.17/scala-reflect-2.12.17.jar",
+                "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.1.0/scala-xml_2.12-2.1.0.jar",
+                "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/java-20-openjdk",
+                "options": [
+                    "-Duser.dir=/home/jupiter/WORK/PROJECTS/flinkwordcount"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.17",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.17/scala-library-2.12.17.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.17/scala-library-2.12.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-scala_2.12",
+                    "version": "1.17.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "flink-scala_2.12",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-scala_2.12/1.17.1/flink-scala_2.12-1.17.1.jar"
+                        },
+                        {
+                            "name": "flink-scala_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-scala_2.12/1.17.1/flink-scala_2.12-1.17.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-streaming-scala_2.12",
+                    "version": "1.17.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "flink-streaming-scala_2.12",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-streaming-scala_2.12/1.17.1/flink-streaming-scala_2.12-1.17.1.jar"
+                        },
+                        {
+                            "name": "flink-streaming-scala_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-streaming-scala_2.12/1.17.1/flink-streaming-scala_2.12-1.17.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-core",
+                    "version": "1.17.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "flink-core",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-core/1.17.1/flink-core-1.17.1.jar"
+                        },
+                        {
+                            "name": "flink-core",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-core/1.17.1/flink-core-1.17.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-java",
+                    "version": "1.17.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "flink-java",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-java/1.17.1/flink-java-1.17.1.jar"
+                        },
+                        {
+                            "name": "flink-java",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-java/1.17.1/flink-java-1.17.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-shaded-asm-9",
+                    "version": "9.3-16.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "flink-shaded-asm-9",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-shaded-asm-9/9.3-16.1/flink-shaded-asm-9-9.3-16.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.17",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.17/scala-reflect-2.12.17.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.17/scala-reflect-2.12.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-compiler",
+                    "version": "2.12.17",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-compiler",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.17/scala-compiler-2.12.17.jar"
+                        },
+                        {
+                            "name": "scala-compiler",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.17/scala-compiler-2.12.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "chill_2.12",
+                    "version": "0.7.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "chill_2.12",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/chill_2.12/0.7.6/chill_2.12-0.7.6.jar"
+                        },
+                        {
+                            "name": "chill_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/chill_2.12/0.7.6/chill_2.12-0.7.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.36",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.findbugs",
+                    "name": "jsr305",
+                    "version": "1.3.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jsr305",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-streaming-java",
+                    "version": "1.17.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "flink-streaming-java",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-streaming-java/1.17.1/flink-streaming-java-1.17.1.jar"
+                        },
+                        {
+                            "name": "flink-streaming-java",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-streaming-java/1.17.1/flink-streaming-java-1.17.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-annotations",
+                    "version": "1.17.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "flink-annotations",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-annotations/1.17.1/flink-annotations-1.17.1.jar"
+                        },
+                        {
+                            "name": "flink-annotations",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-annotations/1.17.1/flink-annotations-1.17.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-metrics-core",
+                    "version": "1.17.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "flink-metrics-core",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-metrics-core/1.17.1/flink-metrics-core-1.17.1.jar"
+                        },
+                        {
+                            "name": "flink-metrics-core",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-metrics-core/1.17.1/flink-metrics-core-1.17.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-shaded-jackson",
+                    "version": "2.13.4-16.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "flink-shaded-jackson",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-shaded-jackson/2.13.4-16.1/flink-shaded-jackson-2.13.4-16.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-lang3",
+                    "version": "3.12.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-lang3",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+                        },
+                        {
+                            "name": "commons-lang3",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-text",
+                    "version": "1.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-text",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar"
+                        },
+                        {
+                            "name": "commons-text",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.esotericsoftware.kryo",
+                    "name": "kryo",
+                    "version": "2.24.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "kryo",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0.jar"
+                        },
+                        {
+                            "name": "kryo",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-collections",
+                    "name": "commons-collections",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-collections",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar"
+                        },
+                        {
+                            "name": "commons-collections",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-compress",
+                    "version": "1.21",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-compress",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar"
+                        },
+                        {
+                            "name": "commons-compress",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.21/commons-compress-1.21-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-shaded-guava",
+                    "version": "30.1.1-jre-16.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "flink-shaded-guava",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-shaded-guava/30.1.1-jre-16.1/flink-shaded-guava-30.1.1-jre-16.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-math3",
+                    "version": "3.6.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-math3",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar"
+                        },
+                        {
+                            "name": "commons-math3",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "chill-java",
+                    "version": "0.7.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "chill-java",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/chill-java/0.7.6/chill-java-0.7.6.jar"
+                        },
+                        {
+                            "name": "chill-java",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/chill-java/0.7.6/chill-java-0.7.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.12",
+                    "version": "2.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.12",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.1.0/scala-xml_2.12-2.1.0.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.1.0/scala-xml_2.12-2.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-file-sink-common",
+                    "version": "1.17.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "flink-file-sink-common",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-file-sink-common/1.17.1/flink-file-sink-common-1.17.1.jar"
+                        },
+                        {
+                            "name": "flink-file-sink-common",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-file-sink-common/1.17.1/flink-file-sink-common-1.17.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-runtime",
+                    "version": "1.17.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "flink-runtime",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-runtime/1.17.1/flink-runtime-1.17.1.jar"
+                        },
+                        {
+                            "name": "flink-runtime",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-runtime/1.17.1/flink-runtime-1.17.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.esotericsoftware.minlog",
+                    "name": "minlog",
+                    "version": "1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "minlog",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar"
+                        },
+                        {
+                            "name": "minlog",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.objenesis",
+                    "name": "objenesis",
+                    "version": "2.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "objenesis",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1.jar"
+                        },
+                        {
+                            "name": "objenesis",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-rpc-core",
+                    "version": "1.17.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "flink-rpc-core",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-rpc-core/1.17.1/flink-rpc-core-1.17.1.jar"
+                        },
+                        {
+                            "name": "flink-rpc-core",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-rpc-core/1.17.1/flink-rpc-core-1.17.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-rpc-akka-loader",
+                    "version": "1.17.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "flink-rpc-akka-loader",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-rpc-akka-loader/1.17.1/flink-rpc-akka-loader-1.17.1.jar"
+                        },
+                        {
+                            "name": "flink-rpc-akka-loader",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-rpc-akka-loader/1.17.1/flink-rpc-akka-loader-1.17.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-queryable-state-client-java",
+                    "version": "1.17.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "flink-queryable-state-client-java",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-queryable-state-client-java/1.17.1/flink-queryable-state-client-java-1.17.1.jar"
+                        },
+                        {
+                            "name": "flink-queryable-state-client-java",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-queryable-state-client-java/1.17.1/flink-queryable-state-client-java-1.17.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-hadoop-fs",
+                    "version": "1.17.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "flink-hadoop-fs",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-hadoop-fs/1.17.1/flink-hadoop-fs-1.17.1.jar"
+                        },
+                        {
+                            "name": "flink-hadoop-fs",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-hadoop-fs/1.17.1/flink-hadoop-fs-1.17.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-io",
+                    "name": "commons-io",
+                    "version": "2.11.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-io",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar"
+                        },
+                        {
+                            "name": "commons-io",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-shaded-netty",
+                    "version": "4.1.82.Final-16.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "flink-shaded-netty",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-shaded-netty/4.1.82.Final-16.1/flink-shaded-netty-4.1.82.Final-16.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-shaded-zookeeper-3",
+                    "version": "3.7.1-16.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "flink-shaded-zookeeper-3",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-shaded-zookeeper-3/3.7.1-16.1/flink-shaded-zookeeper-3-3.7.1-16.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-cli",
+                    "name": "commons-cli",
+                    "version": "1.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-cli",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-cli/commons-cli/1.5.0/commons-cli-1.5.0.jar"
+                        },
+                        {
+                            "name": "commons-cli",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-cli/commons-cli/1.5.0/commons-cli-1.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.javassist",
+                    "name": "javassist",
+                    "version": "3.24.0-GA",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javassist",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar"
+                        },
+                        {
+                            "name": "javassist",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.xerial.snappy",
+                    "name": "snappy-java",
+                    "version": "1.1.8.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "snappy-java",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.8.3/snappy-java-1.1.8.3.jar"
+                        },
+                        {
+                            "name": "snappy-java",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.8.3/snappy-java-1.1.8.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.lz4",
+                    "name": "lz4-java",
+                    "version": "1.8.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "lz4-java",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar"
+                        },
+                        {
+                            "name": "lz4-java",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.flink",
+                    "name": "flink-shaded-force-shading",
+                    "version": "16.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "flink-shaded-force-shading",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-shaded-force-shading/16.1/flink-shaded-force-shading-16.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-compiler",
+                    "version": "2.12.17",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-compiler",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.17/scala-compiler-2.12.17.jar"
+                        },
+                        {
+                            "name": "scala-compiler",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.17/scala-compiler-2.12.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.17",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.17/scala-library-2.12.17.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/jupiter/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.17/scala-library-2.12.17-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}

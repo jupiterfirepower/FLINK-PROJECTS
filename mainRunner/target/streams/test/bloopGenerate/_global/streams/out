@@ -1,0 +1,4 @@
+[debug] [mainRunner-test] Classpath dependencies List(root)
+[debug] [mainRunner-test] Dependencies from configurations List(mainRunner)
+[debug] Bloop wrote the configuration of project 'mainRunner-test' to '/home/jupiter/WORK/PROJECTS/flinkwordcount/.bloop/mainRunner-test.json'
+[success] Generated .bloop/mainRunner-test.json
