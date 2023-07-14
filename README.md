@@ -1,11 +1,19 @@
 A Flink application project using Scala and SBT.
 
+IDE - VSCodium
+Terminal Commands:
+
+sbt clean
+sbt compile
+sbt package
+sbt assembly
+
 To run and test your application locally, you can just execute `sbt run` then select the main class that contains the Flink job . 
 
 You can also package the application into a fat jar with `sbt assembly`, then submit it as usual, with something like: 
 
 ```
-flink run -c org.example.WordCount /path/to/your/project/my-app/target/scala-2.11/testme-assembly-0.1-SNAPSHOT.jar
+./bin/flink run -c org.WordCount --detached /opt/flink/flinkwordcount_2.12-1-SNAPSHOT.jar --input /opt/flink/README.txt --output /tmp/wordcount.csv
 ```
 
 
@@ -13,4 +21,4 @@ You can also run your application from within IntelliJ:  select the classpath of
 Simply open 'Run -> Edit configurations...' and then select 'mainRunner' from the "Use classpath of module" dropbox. 
 # FLINK-PROJECTS
 
-./bin/flink run -c org.WordCount --detached /opt/flink/flinkwordcount_2.12-1-SNAPSHOT.jar --input /opt/flink/README.txt --output /tmp/wordcount.csv
+

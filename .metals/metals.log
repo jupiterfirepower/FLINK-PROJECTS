@@ -5807,3 +5807,31 @@ INFO: Schema "PUBLIC" is up to date. No migration necessary.
 2023.07.12 16:00:10 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
 2023.07.12 16:00:10 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-20-openjdk/src.zip, /usr/lib/jvm/java-20-openjdk/lib/src.zip. Java symbols will not be available.
 2023.07.12 16:00:10 INFO  time: indexed workspace in 3.19s
+2023.07.12 16:32:44 INFO  Shutting down server
+2023.07.12 16:32:44 INFO  shutting down Metals
+2023.07.12 16:32:44 INFO  Shut down connection with build server.
+2023.07.12 16:32:44 INFO  Shut down connection with build server.
+2023.07.12 16:32:44 INFO  Shut down connection with build server.
+2023.07.12 16:32:44 INFO  Exiting server
+2023.07.13 12:52:22 INFO  Started: Metals version 0.11.12 in workspace '/home/jupiter/WORK/PROJECTS/flinkwordcount' for client VSCodium 1.79.2.
+Jul 13, 2023 12:52:22 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 13, 2023 12:52:22 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 13, 2023 12:52:22 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 13, 2023 12:52:23 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/jupiter/WORK/PROJECTS/flinkwordcount/.metals/metals (H2 2.1)
+Jul 13, 2023 12:52:23 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.015s)
+Jul 13, 2023 12:52:23 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jul 13, 2023 12:52:23 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.13 12:52:23 INFO  time: initialize in 0.49s
+2023.07.13 12:52:24 INFO  Attempting to connect to the build server...
+2023.07.13 12:52:24 INFO  Bloop uses /usr/lib/jvm/java-20-openjdk defined at /home/jupiter/.bloop/bloop.json
+2023.07.13 12:52:24 INFO  skipping build import with status 'Installed'
+2023.07.13 12:52:26 INFO  Shutting down server
+2023.07.13 12:52:26 INFO  shutting down Metals
+2023.07.13 12:52:26 INFO  Exiting server
