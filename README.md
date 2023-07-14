@@ -1,15 +1,15 @@
-A Flink application project using Scala and SBT.
-
-IDE - VSCodium
-Terminal Commands:
-
-sbt clean
-sbt compile
-sbt package
-sbt assembly
-
-To run and test your application locally, you can just execute `sbt run` then select the main class that contains the Flink job . 
-
+A Flink application project using Scala and SBT.<br>
+<br>
+IDE - VSCodium<br>
+Terminal Commands:<br>
+<br>
+sbt clean<br>
+sbt compile<br>
+sbt package<br>
+sbt assembly<br>
+<br>
+To run and test your application locally, you can just execute `sbt run` then select the main class that contains the Flink job . <br>
+<br>
 You can also package the application into a fat jar with `sbt assembly`, then submit it as usual, with something like: 
 
 ```
